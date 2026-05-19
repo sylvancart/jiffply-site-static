@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"   content="width=device-width, initial-scale=1.0" />
+    <title>Jiffply | Never Miss a Customer, Ever.</title>
+    <meta
+      name="description"
+      content="Jiffply helps Indian businesses reply across WhatsApp, Instagram, website, and email instantly, accurately, and in one voice."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://jiffply.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jiffply.com/" />
+    <meta property="og:title" content="Jiffply | Never Miss a Customer, Ever." />
+    <meta
+      property="og:description"
+      content="Jiffply helps Indian businesses reply across WhatsApp, Instagram, website, and email instantly, accurately, and in one voice."
+    />
+    <meta property="og:image" content="https://jiffply.com/assets/images/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jiffply.com/" />
+    <meta property="twitter:title" content="Jiffply | Never Miss a Customer, Ever." />
+    <meta
+      property="twitter:description"
+      content="Jiffply helps Indian businesses reply across WhatsApp, Instagram, website, and email instantly, accurately, and in one voice."
+    />
+    <meta property="twitter:image" content="https://jiffply.com/assets/images/og-image.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css?v=2.0.1" />
+  </head>
+  <body class="homepage">
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-chat" viewBox="0 0 24 24">
+        <path d="M7 17.5 4 20l1-4.2A8 8 0 1 1 20 12a8 8 0 0 1-8 8 8.2 8.2 0 0 1-5-1.7Z" />
+      </symbol>
+      <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.039 2.875 1.183 3.073.144.198 2.043 3.12 4.949 4.376.691.3 1.23.479 1.652.613.695.221 1.328.19 1.83.115.56-.084 1.758-.718 2.006-1.411.248-.692.248-1.288.173-1.411-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.458 5.704 1.459h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M3 12h18" />
+        <path d="M12 3a13.5 13.5 0 0 1 0 18" />
+        <path d="M12 3a13.5 13.5 0 0 0 0 18" />
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2" />
+        <path d="m4 7 8 6 8-6" />
+      </symbol>
+      <symbol id="icon-inbox" viewBox="0 0 24 24">
+        <path d="M4 13.5 6.5 6h11L20 13.5V18a2 2 0 0 1-2 2h-3.5l-2-2h-1l-2 2H6a2 2 0 0 1-2-2Z" />
+        <path d="M4 14h4l2 2h4l2-2h4" />
+      </symbol>
+      <symbol id="icon-bot" viewBox="0 0 24 24">
+        <rect x="5" y="8" width="14" height="10" rx="3" />
+        <path d="M12 4v4" />
+        <path d="M8.5 12h.01" />
+        <path d="M15.5 12h.01" />
+        <path d="M8 18v2" />
+        <path d="M16 18v2" />
+      </symbol>
+      <symbol id="icon-file" viewBox="0 0 24 24">
+        <path d="M14 3H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V7Z" />
+        <path d="M14 3v4h4" />
+        <path d="M9 13h6" />
+        <path d="M9 17h4" />
+      </symbol>
+      <symbol id="icon-flow" viewBox="0 0 24 24">
+        <path d="M6 6h8a3 3 0 1 1 0 6H9" />
+        <path d="m9 9-3 3 3 3" />
+        <path d="M18 18h-8a3 3 0 1 1 0-6h5" />
+        <path d="m15 9 3 3-3 3" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="m12 3 7 3v5c0 4.5-3 8.1-7 10-4-1.9-7-5.5-7-10V6Z" />
+        <path d="m9 12 2 2 4-4" />
+      </symbol>
+      <symbol id="icon-users" viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="3" />
+        <path d="M4 19a5 5 0 0 1 10 0" />
+        <path d="M16 5.5a3 3 0 0 1 0 5" />
+        <path d="M15 19a4.5 4.5 0 0 1 5-4.4" />
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3 2" />
+      </symbol>
+      <symbol id="icon-layers" viewBox="0 0 24 24">
+        <path d="m12 4 8 4-8 4-8-4 8-4Z" />
+        <path d="m4 12 8 4 8-4" />
+        <path d="m4 16 8 4 8-4" />
+      </symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24">
+        <path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z" />
+      </symbol>
+      <symbol id="icon-briefcase" viewBox="0 0 24 24">
+        <rect x="4" y="7" width="16" height="12" rx="2" />
+        <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+        <path d="M4 12h16" />
+      </symbol>
+      <symbol id="icon-bolt" viewBox="0 0 24 24">
+        <path d="M13 2 5 14h6l-1 8 8-12h-6Z" />
+      </symbol>
+      <symbol id="icon-alert" viewBox="0 0 24 24">
+        <path d="M12 4 3 20h18L12 4Z" />
+        <path d="M12 10v4" />
+        <path d="M12 17h.01" />
+      </symbol>
+    </svg>
+    <div class="page-shell">
+      <header class="site-header" data-header>
+        <div class="container">
+          <div class="nav-wrap">
+            <a class="brand" href="index.html" aria-label="Jiffply home">
+              <span class="brand-mark"><span>J</span></span>
+              <span>Jiffply</span>
+            </a>
+            <nav class="nav-links" aria-label="Primary">
+              <a href="features.html">Features</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="#use-cases">Use Cases</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+            <div class="nav-actions">
+              <a class="btn btn-primary" href="#signup">Start Free Trial</a>
+            </div>
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+              <span class="sr-only">Menu</span>
+              <span class="menu-toggle-bars" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+          <div class="mobile-backdrop" data-mobile-backdrop hidden></div>
+          <aside class="mobile-panel" data-mobile-panel hidden role="dialog" aria-modal="true" aria-label="Mobile navigation">
+            <div class="mobile-panel-head">
+              <a class="brand" href="index.html" aria-label="Jiffply home">
+                <span class="brand-mark"><span>J</span></span>
+                <span>Jiffply</span>
+              </a>
+              <button class="mobile-close" type="button" aria-label="Close menu" data-menu-close>
+                <span class="sr-only">Close menu</span>
+                <span aria-hidden="true">+</span>
+              </button>
+            </div>
+            <div class="mobile-panel-links">
+              <a href="features.html">Features</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="#use-cases">Use Cases</a>
+              <a href="contact.html">Contact</a>
+            </div>
+            <div class="mobile-panel-foot">
+              <a class="mobile-social" href="https://www.instagram.com/jiffply/" target="_blank" rel="noreferrer">Instagram / @jiffply</a>
+              <a class="btn btn-primary" href="#signup">Start Free Trial</a>
+            </div>
+          </aside>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-cinematic" id="signup">
+          <div class="hero-grain"></div>
+          <div class="container hero-asymmetric-grid">
+            <div class="hero-left-col reveal">
+              <div class="hero-eyebrow-container">
+                <span class="premium-eyebrow">
+                  <span class="pulse-dot"></span>
+                  Jiffply is Now Live
+                </span>
+                <span class="premium-tag">14-Day Free Trial</span>
+              </div>
+              
+              <h1 class="cinematic-headline">
+                <span class="headline-line line-1">Every Customer.</span>
+                <span class="headline-line line-2">Answered Before</span>
+                <span class="headline-line line-3">They Wait.</span>
+              </h1>
+              
+              <div class="hero-asymmetric-body">
+                <p class="hero-editorial-lead">
+                  The first multi-channel response engine engineered for growing Indian brands. Jiffply unifies WhatsApp, Instagram, web chat, and email into a single, localized reasoning layer. Start your 14-day free trial today to get instant access to automatic resolution pipelines in your brand voice.
+                </p>
+                
+                <!-- Premium Trial Subscription Form -->
+                <form class="hero-waitlist-form" id="heroWaitlistForm">
+                  <div class="waitlist-input-wrapper">
+                    <input type="email" placeholder="Enter your email to start your free trial..." required class="waitlist-input" />
+                    <button type="submit" class="btn-waitlist-submit">
+                      <span class="btn-text">Start Free Trial</span>
+                      <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                  </div>
+                  <div class="waitlist-security-note" style="margin-top: 0.6rem; font-size: 0.75rem; color: rgba(255, 255, 255, 0.45); display: flex; align-items: center; gap: 0.35rem; justify-content: flex-start; padding-left: 0.5rem;">
+                    <svg viewBox="0 0 24 24" fill="currentColor" style="width: 12px; height: 12px; opacity: 0.8; color: #00ffcc; flex-shrink: 0;"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>
+                    <span>Instant access. No credit card required. Cancel anytime.</span>
+                  </div>
+                  <p class="waitlist-feedback" data-waitlist-status></p>
+                </form>
+                
+                <div class="hero-micro-specs">
+                  <div class="spec-item">
+                    <span class="spec-label">LATENCY</span>
+                    <span class="spec-val">~1.4s</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">ACCURACY</span>
+                    <span class="spec-val">100% Grounded</span>
+                  </div>
+                  <div class="spec-item">
+                    <span class="spec-label">COVERAGE</span>
+                    <span class="spec-val">WhatsApp + 3 channels</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="hero-right-col reveal">
+              <div class="canvas-viewport-wrapper">
+                <div class="canvas-border-glow"></div>
+                <div class="canvas-interactive-area">
+                  <canvas id="conversationEngineCanvas"></canvas>
+                  
+                  <!-- Interactive Floating SVG Brand Icons -->
+                  <div class="node-icon-element node-whatsapp" style="left: 16%; top: 28%;">
+                    <div class="icon-circle" style="--brand-color: #25d366;">
+                      <svg class="icon"><use href="#icon-whatsapp"></use></svg>
+                    </div>
+                    <span class="node-label">WhatsApp</span>
+                  </div>
+                  
+                  <div class="node-icon-element node-instagram" style="left: 14%; top: 72%;">
+                    <div class="icon-circle" style="--brand-color: #e1306c;">
+                      <svg class="icon"><use href="#icon-instagram"></use></svg>
+                    </div>
+                    <span class="node-label">Instagram</span>
+                  </div>
+                  
+                  <div class="node-icon-element node-webchat" style="left: 86%; top: 28%;">
+                    <div class="icon-circle" style="--brand-color: #00ffcc;">
+                      <svg class="icon"><use href="#icon-chat"></use></svg>
+                    </div>
+                    <span class="node-label">Web Chat</span>
+                  </div>
+                  
+                  <div class="node-icon-element node-email" style="left: 84%; top: 72%;">
+                    <div class="icon-circle" style="--brand-color: #ffb300;">
+                      <svg class="icon"><use href="#icon-mail"></use></svg>
+                    </div>
+                    <span class="node-label">Email</span>
+                  </div>
+                </div>
+                
+                <div class="engine-dashboard-controls">
+                  <span class="dashboard-title">LIVE PERFORMANCE METRICS</span>
+                  <div class="dashboard-selectors">
+                    <button class="selector-btn active" data-engine-mode="reasoning">
+                      <span class="dot"></span> Response Accuracy
+                    </button>
+                    <button class="selector-btn" data-engine-mode="turbo">
+                      <span class="dot"></span> Instant Resolution
+                    </button>
+                    <button class="selector-btn" data-engine-mode="quantum">
+                      <span class="dot"></span> Intelligent Routing
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="social-strip">
+          <div class="container">
+            <div class="proof-rail reveal">
+              <div class="proof-copy">
+                <span class="note">Built for response-driven growth</span>
+                <h2 class="section-title">Trusted by businesses that cannot afford silence.</h2>
+                <p class="section-copy">Sales, support, onboarding, and follow-up keep moving even when the owner is away from the phone.</p>
+              </div>
+              <div class="proof-stats" aria-label="Key product stats">
+                <div class="proof-stat">
+                  <strong>90%</strong>
+                  <span>faster reply rhythm when repetitive questions are automated</span>
+                </div>
+                <div class="proof-stat">
+                  <strong>4</strong>
+                  <span>customer channels unified into one operating layer</span>
+                </div>
+                <div class="proof-stat">
+                  <strong>24/7</strong>
+                  <span>availability without needing a full round-the-clock team</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="problem-layout">
+              <div class="problem-intro reveal">
+                <span class="eyebrow eyebrow-dark">The problem</span>
+                <h2 class="section-title">You're losing customers you never even knew you had.</h2>
+                <p class="lead">Indian small and mid-sized businesses lose customers every single day not because their product is bad, but because they could not reply in time.</p>
+                <div class="problem-pulse">
+                  <strong>Every missed reply creates doubt.</strong>
+                  <span>And doubt is usually enough for the customer to message the next business.</span>
+                </div>
+              </div>
+              <div class="pain-list reveal">
+                <article class="pain-item">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg></div>
+                  <div>
+                    <span class="card-kicker">Late-night demand</span>
+                    <h3 class="card-title">Unanswered DMs become lost sales</h3>
+                    <p class="muted">A customer messages at 11pm, gets no reply, and buys from someone else before morning.</p>
+                  </div>
+                </article>
+                <article class="pain-item">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-file"></use></svg></div>
+                  <div>
+                    <span class="card-kicker">Owner overload</span>
+                    <h3 class="card-title">The same questions get answered again and again</h3>
+                    <p class="muted">Price lists, delivery details, brochures, timings, and policies keep pulling the owner back into the same work.</p>
+                  </div>
+                </article>
+                <article class="pain-item">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-layers"></use></svg></div>
+                  <div>
+                    <span class="card-kicker">Channel chaos</span>
+                    <h3 class="card-title">Four inboxes create one messy customer experience</h3>
+                    <p class="muted">WhatsApp, Instagram, website, and email all move at different speeds, but the customer only notices your silence.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="how-it-works">
+          <div class="container">
+            <div class="process-shell">
+              <div class="process-copy reveal">
+                <span class="eyebrow eyebrow-dark">How it works</span>
+                <h2 class="section-title">One AI. Every channel. Zero missed conversations.</h2>
+                <p class="lead">Train Jiffply once with your business information. It handles the rest across the channels your customers already use.</p>
+              </div>
+              <div class="process-steps reveal">
+                <article class="process-step">
+                  <div class="number-mark">01</div>
+                  <div>
+                    <h3 class="card-title">Feed it your business information</h3>
+                    <p class="muted">FAQs, product details, pricing, policies, and documents become the source for every reply.</p>
+                  </div>
+                </article>
+                <article class="process-step">
+                  <div class="number-mark">02</div>
+                  <div>
+                    <h3 class="card-title">Jiffply learns your voice</h3>
+                    <p class="muted">Replies stay accurate and grounded in what your business actually offers.</p>
+                  </div>
+                </article>
+                <article class="process-step">
+                  <div class="number-mark">03</div>
+                  <div>
+                    <h3 class="card-title">It replies while you run the business</h3>
+                    <p class="muted">Questions get answered, documents go out, leads get qualified, and customers move forward.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="eyebrow eyebrow-dark">Core features</span>
+              <h2 class="section-title">Everything your customer team does. Automated.</h2>
+            </div>
+            <div class="feature-layout">
+              <div class="feature-spotlight reveal">
+                <span class="note">One operating layer</span>
+                <h3 class="section-title">Jiffply is less like a chatbot and more like a response engine for your business.</h3>
+                <p class="lead">It combines grounded answers, document dispatch, lead movement, and smart escalation rules into one calm system that works across the channels your customers already use.</p>
+                <ul class="feature-points">
+                  <li>One voice across WhatsApp, Instagram, website, and email.</li>
+                  <li>Trained on your business information instead of generic assumptions.</li>
+                  <li>Built to reduce manual repetition without removing human control.</li>
+                </ul>
+              </div>
+              <div class="feature-lines reveal">
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-inbox"></use></svg></div>
+                  <div><strong>Multichannel inbox</strong><span>See and manage every customer conversation from one place.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-bot"></use></svg></div>
+                  <div><strong>Grounded AI replies</strong><span>Answer in your tone using your actual business information.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-file"></use></svg></div>
+                  <div><strong>Automatic dispatch</strong><span>Send brochures, price lists, catalogues, and images when relevant.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-flow"></use></svg></div>
+                  <div><strong>Sales and onboarding flows</strong><span>Move leads and new customers forward without waiting on the owner.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg></div>
+                  <div><strong>Official WhatsApp coverage</strong><span>Strong support for the channel Indian SMBs depend on most.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-users"></use></svg></div>
+                  <div><strong>Smart Escalation Rules</strong><span>Define smart rules to alert and route complex queries straight to your team.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg></div>
+                  <div><strong>Privacy conscious</strong><span>A strong fit for clinics, finance, education, and trust-led businesses.</span></div>
+                </article>
+                <article class="feature-line">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></div>
+                  <div><strong>Mobile-ready roadmap</strong><span>Designed to stay usable as the product expands into more workflows.</span></div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="use-cases">
+          <div class="container">
+            <div class="channel-editorial">
+              <div class="reveal">
+                <span class="eyebrow eyebrow-dark">Channel advantage</span>
+                <h2 class="section-title">Your customers are everywhere. Now you are too.</h2>
+                <p class="lead">Jiffply gives your business one consistent voice across the channels where sales, support, and follow-up actually happen.</p>
+              </div>
+              <div class="channel-band-stack reveal">
+                <div class="channel-band whatsapp">
+                  <div class="channel-head">
+                    <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg></div>
+                    <strong>WhatsApp</strong>
+                  </div>
+                  <p>India's number one messaging app. Now handled for you with consistent replies and no late-night gaps.</p>
+                </div>
+                <div class="channel-band instagram">
+                  <div class="channel-head">
+                    <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-instagram"></use></svg></div>
+                    <strong>Instagram</strong>
+                  </div>
+                  <p>DMs that actually get replied to instead of waiting for the owner to become free.</p>
+                </div>
+                <div class="channel-band website">
+                  <div class="channel-head">
+                    <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-globe"></use></svg></div>
+                    <strong>Website</strong>
+                  </div>
+                  <p>Site visitors get answers in seconds while intent is still high and buying interest is warm.</p>
+                </div>
+                <div class="channel-band email">
+                  <div class="channel-head">
+                    <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-mail"></use></svg></div>
+                    <strong>Email</strong>
+                  </div>
+                  <p>No inbox left unattended when thoughtful follow-up is what closes the deal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="truth-layout">
+              <div class="truth-copy reveal">
+                <span class="eyebrow eyebrow-dark">Trust</span>
+                <h2 class="section-title">AI that never makes things up.</h2>
+                <p class="lead">Most AI tools hallucinate. Jiffply is built to answer from the information you provide, and if it does not know, it says so.</p>
+                <ul class="truth-points">
+                  <li>Grounded answers from your approved information.</li>
+                  <li>Clear fallbacks when a customer asks beyond what is known.</li>
+                  <li>Smart escalation routing whenever nuance matters more than speed.</li>
+                </ul>
+              </div>
+              <div class="truth-compare reveal">
+                <article class="truth-column truth-column-bad">
+                  <span class="trust-label">Regular AI tools</span>
+                  <h3 class="card-title">Confident, but wrong</h3>
+                  <p class="muted">Invented answers damage trust fast, especially when customers ask about pricing, policies, or availability.</p>
+                  <div class="quote-box">
+                    <strong>Example reply</strong>
+                    <p style="margin-bottom: 0;">Yes, delivery is available tomorrow and the premium plan includes support.</p>
+                  </div>
+                </article>
+                <article class="truth-column truth-column-good">
+                  <span class="trust-label">Jiffply</span>
+                  <h3 class="card-title">Accurate, grounded, and clear</h3>
+                  <p class="muted">Jiffply sticks to what your business has actually provided and escalates when a customer needs more than that.</p>
+                  <div class="quote-box">
+                    <strong>Example reply</strong>
+                    <p style="margin-bottom: 0;">I can confirm what is in your uploaded pricing and policy information. For anything outside that, I can connect you with the team.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="privacy-band reveal">
+              <span class="eyebrow">Privacy and control</span>
+              <h2 class="section-title">Your customer conversations should feel safe, controlled, and on-brand.</h2>
+              <p class="lead" style="color: rgba(255, 255, 255, 0.78); max-width: 760px;">
+                Jiffply is especially relevant for businesses that cannot afford inaccurate replies, inconsistent tone, or loose handling of customer information.
+              </p>
+              <div class="privacy-lines">
+                <div class="privacy-line">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg></div>
+                  <div><strong>For clinics</strong><p style="margin-bottom: 0;">Patient questions need speed and sensitivity at the same time.</p></div>
+                </div>
+                <div class="privacy-line">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-briefcase"></use></svg></div>
+                  <div><strong>For finance</strong><p style="margin-bottom: 0;">Customer trust drops quickly when replies are vague or careless.</p></div>
+                </div>
+                <div class="privacy-line">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-users"></use></svg></div>
+                  <div><strong>For education</strong><p style="margin-bottom: 0;">Admissions and parent queries need consistent answers across every channel.</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="eyebrow eyebrow-dark">Who it is for</span>
+              <h2 class="section-title">Designed around real Indian SMB workflows.</h2>
+            </div>
+            <div class="audience-list">
+              <article class="audience-row reveal">
+                <div class="audience-role">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></div>
+                  <span class="card-kicker">Riya, D2C founder</span>
+                </div>
+                <div class="audience-copy">
+                  <h3 class="card-title">Fast replies without hiring a full support team</h3>
+                  <p class="muted">Gets 200+ WhatsApp and Instagram DMs daily and wants auto-replies that do not embarrass the brand.</p>
+                </div>
+                <div class="audience-signal">High-volume DMs</div>
+              </article>
+              <article class="audience-row reveal">
+                <div class="audience-role">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-file"></use></svg></div>
+                  <span class="card-kicker">Arjun, coaching owner</span>
+                </div>
+                <div class="audience-copy">
+                  <h3 class="card-title">Send the same answers and PDFs without doing it manually</h3>
+                  <p class="muted">Needs enquiry handling to keep moving while he focuses on teaching.</p>
+                </div>
+                <div class="audience-signal">Repeat enquiries</div>
+              </article>
+              <article class="audience-row reveal">
+                <div class="audience-role">
+                  <div class="feature-icon icon-inline"><svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg></div>
+                  <span class="card-kicker">Sneha, clinic manager</span>
+                </div>
+                <div class="audience-copy">
+                  <h3 class="card-title">Stay reliable when customer trust matters most</h3>
+                  <p class="muted">Wants a private, dependable reply system for appointment and patient communication.</p>
+                </div>
+                <div class="audience-signal">Trust-sensitive</div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="eyebrow eyebrow-dark">Why Jiffply wins</span>
+              <h2 class="section-title">More complete than single-channel tools. More practical than bloated global platforms.</h2>
+            </div>
+            <div class="compare-card reveal">
+              <div class="compare-head">
+                <span>Capability</span>
+                <span class="compare-jiffply">Jiffply</span>
+                <span>ManyChat</span>
+                <span>Wati / AiSensy</span>
+                <span>Tidio</span>
+              </div>
+              <div class="compare-row">
+                <span>WhatsApp</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">Yes</span><span data-label="Wati / AiSensy">Yes</span><span data-label="Tidio">No</span>
+              </div>
+              <div class="compare-row">
+                <span>Instagram</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">Yes</span><span data-label="Wati / AiSensy">No</span><span data-label="Tidio">Yes</span>
+              </div>
+              <div class="compare-row">
+                <span>Website chat</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">No</span><span data-label="Wati / AiSensy">No</span><span data-label="Tidio">Yes</span>
+              </div>
+              <div class="compare-row">
+                <span>Email</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">No</span><span data-label="Wati / AiSensy">No</span><span data-label="Tidio">Yes</span>
+              </div>
+              <div class="compare-row">
+                <span>Grounded answers</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">No</span><span data-label="Wati / AiSensy">No</span><span data-label="Tidio">No</span>
+              </div>
+              <div class="compare-row">
+                <span>Sales plus support</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">Support only</span><span data-label="Wati / AiSensy">Support only</span><span data-label="Tidio">Support only</span>
+              </div>
+              <div class="compare-row">
+                <span>India-friendly pricing</span><span class="compare-jiffply" data-label="Jiffply">Yes</span><span data-label="ManyChat">No</span><span data-label="Wati / AiSensy">Yes</span><span data-label="Tidio">No</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="eyebrow eyebrow-dark">Pricing</span>
+              <h2 class="section-title">One plan. Everything included.</h2>
+              <p class="lead">14-day free trial. No credit card. Cancel anytime.</p>
+            </div>
+            <div class="pricing-showcase reveal">
+              <article class="pricing-card">
+                <div class="pricing-grid">
+                  <div class="price-block">
+                    <div class="pricing-topline">
+                      <span class="note">Standard Plan</span>
+                      <span class="pricing-badge">14-day free trial</span>
+                    </div>
+                    <div class="pricing-copy">
+                      <h3>Everything your customer team needs, without confusing tiers.</h3>
+                      <p>One clean plan for businesses that want faster replies, fewer missed leads, and a better customer experience across every important channel.</p>
+                    </div>
+                    <div class="price-note">Simple monthly pricing</div>
+                    <div class="price">Rs. 1,499</div>
+                    <div class="price-subline">per month, with no credit card required to start your trial</div>
+                    <div class="pricing-actions">
+                      <a class="btn btn-primary" href="contact.html#demo">Start Free Trial</a>
+                      <span class="note">Cancel anytime</span>
+                    </div>
+                    <p class="pricing-footnote">Startup? Apply for our special discount during signup.</p>
+                  </div>
+                  <div class="pricing-side">
+                    <div class="pricing-stats">
+                      <div class="pricing-stat">
+                        <strong>4 customer channels</strong>
+                        <span>WhatsApp, Instagram, website, and email in one flow.</span>
+                      </div>
+                      <div class="pricing-stat">
+                        <strong>Sales plus support</strong>
+                        <span>Answer questions, send documents, qualify leads, and onboard customers.</span>
+                      </div>
+                    </div>
+                    <div class="pricing-features">
+                      <ul class="pricing-list" style="margin-top: 0;">
+                        <li><span class="list-mark">1</span><span>All 4 channels in one setup</span></li>
+                        <li><span class="list-mark">2</span><span>AI auto-replies grounded in your business information</span></li>
+                        <li><span class="list-mark">3</span><span>Automatic document and image sharing</span></li>
+                        <li><span class="list-mark">4</span><span>Sales and onboarding flows</span></li>
+                        <li><span class="list-mark">5</span><span>Human handoff whenever needed</span></li>
+                      </ul>
+                    </div>
+                    <div class="pricing-side-card">
+                      <h4>Made for growing Indian businesses</h4>
+                      <p>No bloated enterprise pricing model. Just one clear plan that is easy to understand and easier to start.</p>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-header reveal">
+              <span class="eyebrow eyebrow-dark">FAQ</span>
+              <h2 class="section-title">Questions? Answered.</h2>
+            </div>
+            <div class="faq-list reveal">
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-1" data-faq-button>
+                  Will Jiffply make up answers?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-1" hidden>No. Jiffply only answers from the information you provide. If it does not know, it says so and offers to connect the customer with you.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-2" data-faq-button>
+                  Which channels does Jiffply support?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-2" hidden>WhatsApp, Instagram DMs, website chat, and email.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-3" data-faq-button>
+                  Can I control what Jiffply says?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-3" hidden>Yes. You train it with your own information, shape the tone, and can take over any conversation manually at any time.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-4" data-faq-button>
+                  Is my customer data safe?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-4" hidden>Jiffply is designed for businesses that care deeply about customer trust, reply accuracy, and controlled communication.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-5" data-faq-button>
+                  Is there a free trial?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-5" hidden>Yes. You get 14 days with no credit card required.</div>
+              </div>
+              <div class="faq-item">
+                <button class="faq-button" type="button" aria-expanded="false" aria-controls="faq-6" data-faq-button>
+                  Do you have a startup discount?
+                  <span>+</span>
+                </button>
+                <div class="faq-panel" id="faq-6" hidden>Yes. Apply during signup and mention that you are a startup.</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="cta-band reveal">
+              <h2 class="section-title">Never miss a customer, ever.</h2>
+              <p class="lead" style="margin-inline: auto; color: rgba(255, 255, 255, 0.78);">
+                Jiffply is live. Start your 14-day free trial today to secure instant access and lock in introductory rates.
+              </p>
+              <div class="btn-row" style="justify-content: center;">
+                <a class="btn btn-primary" href="#signup">Start Free Trial</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-shell">
+            <div>
+              <a class="brand" href="index.html" style="color: var(--ink);">
+                <span class="brand-mark"><span>J</span></span>
+                <span>Jiffply</span>
+              </a>
+              <p class="footer-meta">Never miss a customer, ever.</p>
+            </div>
+            <div class="footer-links">
+              <a href="features.html">Features</a>
+              <a href="pricing.html">Pricing</a>
+              <a href="contact.html">Contact</a>
+              <a href="https://www.instagram.com/jiffply/" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="contact.html">Privacy Policy</a>
+              <a href="contact.html">Terms</a>
+            </div>
+            <div class="footer-meta">
+              <p>WhatsApp | Email</p>
+              <p>(c) 2026 Jiffply. All rights reserved. Made for Indian businesses.</p>
+              <p style="margin-top: 0.5rem; font-size: 0.85rem; opacity: 0.8;">A product By <a href="https://bytewebster.com" target="_blank" rel="noreferrer" style="color: #00ffcc; font-weight: 700; text-decoration: underline; transition: color 0.2s;">Bytewebster</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/main-new.js?v=4.0.0"></script>
+  </body>
+</html>

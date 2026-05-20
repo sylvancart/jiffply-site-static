@@ -3247,9 +3247,15 @@ img {
 /* ── Contact section ── */
 .contact-section {
   padding-top: 0;
+  padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
   margin-top: -1.5rem;
   position: relative;
   z-index: 2;
+}
+
+.contact-cta-section {
+  padding-top: clamp(1.5rem, 3vw, 2.5rem) !important;
+  padding-bottom: clamp(2rem, 4vw, 3.5rem) !important;
 }
 
 /* ── Contact layout grid ── */

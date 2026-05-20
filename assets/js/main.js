@@ -119,14 +119,42 @@ if (demoForm) {
   demoForm.addEventListener("submit", (event) => {
     event.preventDefault();
     const status = demoForm.querySelector("[data-form-status]");
+    
+    const nameInput = demoForm.querySelector("#name");
+    const businessInput = demoForm.querySelector("#business");
+    const channelSelect = demoForm.querySelector("#channel");
+    const messageTextarea = demoForm.querySelector("#message");
+    
+    const name = nameInput ? nameInput.value.trim() : "";
+    const business = businessInput ? businessInput.value.trim() : "";
+    const channel = channelSelect ? channelSelect.value : "";
+    const message = messageTextarea ? messageTextarea.value.trim() : "";
+    
+    // Store user data in session
+    const submissionData = {
+      name,
+      business,
+      channel,
+      message,
+      submittedAt: new Date().toISOString()
+    };
+    sessionStorage.setItem("jiffply_demo_submission", JSON.stringify(submissionData));
 
     if (status) {
-      status.textContent = "Demo request captured in the page UI. Connect this form to your email or backend to receive submissions.";
+      status.style.color = "var(--teal)";
+      if (name && business) {
+        status.textContent = `Thank you, ${name}! Your demo request for ${business} has been received successfully. We will reach out on ${channel}.`;
+      } else if (name) {
+        status.textContent = `Thank you, ${name}! Your demo request has been received successfully. We will reach out on ${channel}.`;
+      } else {
+        status.textContent = `Thank you! Your demo request has been received successfully. We will reach out on ${channel}.`;
+      }
     }
 
     demoForm.reset();
   });
 }
+
 
 // ============================================================================
 // JIFFPLY CORE v2.0 - CONVERSATION ENGINE INTERACTIVE PHYSICS

@@ -3154,7 +3154,7 @@ img {
 /* ── Hero ── */
 .contact-hero {
   position: relative;
-  padding: clamp(3rem, 6vw, 4.5rem) 0 clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(3rem, 6vw, 4.5rem) 0 clamp(2.5rem, 5vw, 3.5rem);
   text-align: center;
   overflow: hidden;
   color: #fff;
@@ -3191,25 +3191,25 @@ img {
 }
 
 .contact-hero-inner {
-  max-width: 720px;
+  max-width: 920px;
   margin: 0 auto;
 }
 
 .contact-hero .eyebrow {
-  margin-bottom: 0.85rem;
+  margin-bottom: 1.4rem;
 }
 
 .contact-hero-title {
-  margin: 0 0 0.75rem;
+  margin: 0 0 1.25rem;
   font-family: "Sora", sans-serif;
   font-size: clamp(2.4rem, 5.5vw, 4rem);
-  line-height: 1.1;
+  line-height: 1.15;
   letter-spacing: -0.03em;
   text-wrap: balance;
 }
 
 .contact-hero-lead {
-  margin: 0 auto 1.25rem;
+  margin: 0 auto 1.85rem;
   max-width: 560px;
   font-size: 1.08rem;
   line-height: 1.7;
@@ -3248,7 +3248,7 @@ img {
 .contact-section {
   padding-top: 0;
   padding-bottom: clamp(1.5rem, 3vw, 2.5rem);
-  margin-top: -1.5rem;
+  margin-top: 1rem;
   position: relative;
   z-index: 2;
 }

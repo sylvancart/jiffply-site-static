@@ -3154,7 +3154,7 @@ img {
 /* ── Hero ── */
 .contact-hero {
   position: relative;
-  padding: clamp(5rem, 10vw, 8rem) 0 clamp(3rem, 6vw, 5rem);
+  padding: clamp(3rem, 6vw, 4.5rem) 0 clamp(1.5rem, 3vw, 2.5rem);
   text-align: center;
   overflow: hidden;
   color: #fff;
@@ -3196,11 +3196,11 @@ img {
 }
 
 .contact-hero .eyebrow {
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.85rem;
 }
 
 .contact-hero-title {
-  margin: 0 0 1.3rem;
+  margin: 0 0 0.75rem;
   font-family: "Sora", sans-serif;
   font-size: clamp(2.4rem, 5.5vw, 4rem);
   line-height: 1.1;
@@ -3209,7 +3209,7 @@ img {
 }
 
 .contact-hero-lead {
-  margin: 0 auto 2.2rem;
+  margin: 0 auto 1.25rem;
   max-width: 560px;
   font-size: 1.08rem;
   line-height: 1.7;

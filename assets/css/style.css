@@ -3630,3 +3630,178 @@ img {
     justify-content: center;
   }
 }
+
+/* ============================================================================
+   JIFFPLY – FOOTER PREMIUM REDESIGN
+   ============================================================================ */
+
+.site-footer {
+  padding: 5rem 0 2.5rem;
+  background: #050505;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  z-index: 10;
+}
+
+.footer-container {
+  width: min(calc(100% - 2.5rem), 1460px) !important;
+  max-width: 1460px !important;
+  margin: 0 auto;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr repeat(3, 1fr);
+  gap: 3rem 2rem;
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.footer-brand-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 360px;
+}
+
+.footer-logo {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
+.footer-tagline {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-icon-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink-soft);
+  display: inline-grid;
+  place-items: center;
+  transition: all 0.2s ease;
+}
+
+.social-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.footer-col-title {
+  margin: 0 0 1.25rem;
+  font-family: "Sora", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.footer-link-list a {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.18s ease;
+}
+
+.footer-link-list a:hover {
+  color: #fff;
+}
+
+.footer-trust-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trust-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  width: fit-content;
+}
+
+.trust-badge-pill .icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  color: var(--teal);
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  padding-top: 2rem;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-bottom-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-bottom-links a {
+  color: var(--ink-soft);
+  transition: color 0.18s ease;
+}
+
+.footer-bottom-links a:hover {
+  color: #fff;
+}
+
+/* Responsive Footer */
+@media (max-width: 959px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem 2rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}

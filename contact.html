@@ -45,6 +45,17 @@
         <path d="M16 5.5a3 3 0 0 1 0 5" />
         <path d="M15 19a4.5 4.5 0 0 1 5-4.4" />
       </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <path d="M5 12l5 5L20 7" />
+      </symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3 3" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="m12 3 7 3v5c0 4.5-3 8.1-7 10-4-1.9-7-5.5-7-10V6Z" />
+        <path d="m9 12 2 2 4-4" />
+      </symbol>
     </svg>
     <div class="page-shell">
       <header class="site-header" data-header>
@@ -96,70 +107,126 @@
       </header>
 
       <main>
-        <section class="page-hero" id="demo">
+        <!-- ═══ HERO ═══ -->
+        <section class="contact-hero" id="demo">
+          <div class="contact-hero-glow" aria-hidden="true"></div>
           <div class="container">
-            <span class="eyebrow">Contact and demo</span>
-            <h1 class="title">See how Jiffply can fit your business before you commit.</h1>
-            <p class="lead" style="color: rgba(255, 255, 255, 0.76);">
-              Book a demo, ask about your use case, and see how Jiffply can help with missed leads, repetitive questions, and slow customer replies.
-            </p>
-            <div class="mini-grid">
-              <div class="mini-card"><div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></div><strong>14-day free trial</strong><p>No credit card required.</p></div>
-              <div class="mini-card"><div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-users"></use></svg></div><strong>Use-case guidance</strong><p>D2C, coaching, clinics, local services, and more.</p></div>
+            <div class="contact-hero-inner">
+              <span class="eyebrow"><svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg> Book a demo</span>
+              <h1 class="contact-hero-title">See how Jiffply fits your business — before you commit.</h1>
+              <p class="contact-hero-lead">Book a walkthrough, ask about your use case, and find out how Jiffply handles missed leads, repetitive questions, and slow replies.</p>
+              <div class="contact-trust-strip">
+                <div class="contact-trust-item">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg>
+                  <span>14-day free trial</span>
+                </div>
+                <div class="contact-trust-item">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg>
+                  <span>No credit card</span>
+                </div>
+                <div class="contact-trust-item">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-clock"></use></svg>
+                  <span>Reply within 24 hrs</span>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="section">
-          <div class="container contact-grid">
-            <div class="form-card reveal">
-              <form class="contact-form" data-demo-form>
-                <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg></div>
-                <div class="field">
-                  <label for="name">Name</label>
-                  <input id="name" name="name" type="text" placeholder="Your name" />
+        <!-- ═══ FORM + INFO GRID ═══ -->
+        <section class="section contact-section">
+          <div class="container contact-layout">
+            <!-- Form Column -->
+            <div class="contact-form-col">
+              <div class="contact-form-card reveal">
+                <div class="contact-form-head">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg></div>
+                  <h2 class="contact-form-title">Request your demo</h2>
+                  <p class="contact-form-subtitle">Tell us about your business and we will set up a personalised walkthrough.</p>
                 </div>
-                <div class="field">
-                  <label for="business">Business</label>
-                  <input id="business" name="business" type="text" placeholder="Your business name" />
-                </div>
-                <div class="field">
-                  <label for="channel">Primary channel</label>
-                  <select id="channel" name="channel">
-                    <option>WhatsApp</option>
-                    <option>Instagram</option>
-                    <option>Website</option>
-                    <option>Email</option>
-                  </select>
-                </div>
-                <div class="field">
-                  <label for="message">What do you want help with?</label>
-                  <textarea id="message" name="message" placeholder="Tell us about your business, the volume of messages you handle, and what you want to improve."></textarea>
-                </div>
-                <button class="btn btn-primary" type="submit">Request Demo</button>
-                <p class="form-status" data-form-status></p>
-              </form>
+                <form class="contact-form" data-demo-form>
+                  <div class="contact-form-row">
+                    <div class="field">
+                      <label for="name">Name</label>
+                      <input id="name" name="name" type="text" placeholder="Your name" />
+                    </div>
+                    <div class="field">
+                      <label for="business">Business</label>
+                      <input id="business" name="business" type="text" placeholder="Your business name" />
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label for="channel">Primary channel</label>
+                    <select id="channel" name="channel">
+                      <option>WhatsApp</option>
+                      <option>Instagram</option>
+                      <option>Website</option>
+                      <option>Email</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="message">What do you want help with?</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your business, the volume of messages you handle, and what you want to improve."></textarea>
+                  </div>
+                  <button class="btn btn-primary contact-submit-btn" type="submit">
+                    <svg class="icon" aria-hidden="true"><use href="#icon-send"></use></svg>
+                    Request Demo
+                  </button>
+                  <p class="form-status" data-form-status></p>
+                </form>
+              </div>
             </div>
 
-            <div class="feature-grid-compact">
-              <article class="contact-card reveal">
-                <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg></div>
-                <span class="card-kicker">Best fit</span>
-                <h3 class="card-title">For teams that cannot afford slow replies</h3>
-                <p class="muted">Ideal for businesses getting 50 to 500 plus inbound questions every month across WhatsApp and Instagram especially.</p>
-              </article>
-              <article class="contact-card reveal">
-                <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-file"></use></svg></div>
-                <span class="card-kicker">What to ask</span>
-                <h3 class="card-title">Come with your real workflow questions</h3>
-                <p class="muted">How many inbound queries do you get, which channels matter most, and where are you losing the most time today?</p>
-              </article>
-              <article class="contact-card reveal">
-                <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-briefcase"></use></svg></div>
-                <span class="card-kicker">What you get</span>
-                <h3 class="card-title">A practical product walkthrough</h3>
-                <p class="muted">We can walk through features, pricing, startup discount details, and whether Jiffply fits your current stage.</p>
-              </article>
+            <!-- Info Column -->
+            <div class="contact-info-col">
+              <div class="contact-info-stack">
+                <article class="contact-info-card reveal">
+                  <div class="contact-info-number">1</div>
+                  <div class="contact-info-body">
+                    <span class="card-kicker">Best fit</span>
+                    <h3 class="card-title">For teams that cannot afford slow replies</h3>
+                    <p class="muted">Ideal for businesses getting 50 to 500+ inbound questions every month across WhatsApp and Instagram especially.</p>
+                  </div>
+                </article>
+                <article class="contact-info-card reveal">
+                  <div class="contact-info-number">2</div>
+                  <div class="contact-info-body">
+                    <span class="card-kicker">What to ask</span>
+                    <h3 class="card-title">Come with your real workflow questions</h3>
+                    <p class="muted">How many inbound queries do you get, which channels matter most, and where are you losing the most time today?</p>
+                  </div>
+                </article>
+                <article class="contact-info-card reveal">
+                  <div class="contact-info-number">3</div>
+                  <div class="contact-info-body">
+                    <span class="card-kicker">What you get</span>
+                    <h3 class="card-title">A practical product walkthrough</h3>
+                    <p class="muted">We walk through features, pricing, startup discount details, and whether Jiffply fits your current stage.</p>
+                  </div>
+                </article>
+              </div>
+
+              <!-- Direct contact mini-section -->
+              <div class="contact-direct-card reveal">
+                <strong>Prefer to reach us directly?</strong>
+                <p class="muted">Write to us at <a href="mailto:hello@jiffply.com" class="contact-email-link">hello@jiffply.com</a> or DM us on <a href="https://www.instagram.com/jiffply/" target="_blank" rel="noreferrer" class="contact-email-link">Instagram</a>.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ═══ CTA BAND ═══ -->
+        <section class="section">
+          <div class="container">
+            <div class="contact-cta-band reveal">
+              <div class="contact-cta-glow" aria-hidden="true"></div>
+              <span class="eyebrow eyebrow-dark">Start today</span>
+              <h2 class="section-title">Still not sure? Start the free trial, no card needed.</h2>
+              <p class="lead" style="max-width: 560px;">You get 14 days of full access. If it is not useful, cancel with zero consequence.</p>
+              <div class="btn-row" style="justify-content: center; margin-top: 1.2rem;">
+                <a class="btn btn-primary" href="#demo">Start Free Trial</a>
+                <a class="btn btn-secondary" href="features.html">See Features</a>
+              </div>
             </div>
           </div>
         </section>

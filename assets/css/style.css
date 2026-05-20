@@ -758,9 +758,10 @@ img {
 }
 
 .navbar-logo {
-  height: 34px;
-  width: auto;
-  display: block;
+  height: auto;
+  width: 160px;
+  max-height: 80px;
+  object-fit: contain;
 }
 
 .brand-mark {
@@ -3671,9 +3672,10 @@ img {
 }
 
 .footer-logo {
-  height: 48px;
-  width: auto;
-  display: block;
+  height: auto;
+  width: 200px;
+  max-height: 100px;
+  object-fit: contain;
 }
 
 .footer-tagline {

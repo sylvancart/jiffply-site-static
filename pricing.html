@@ -54,6 +54,9 @@
         <path d="m4 12 8 4 8-4" />
         <path d="m4 16 8 4 8-4" />
       </symbol>
+      <symbol id="icon-check" viewBox="0 0 24 24">
+        <polyline points="20 6 9 17 4 12" />
+      </symbol>
     </svg>
     <div class="page-shell">
       <header class="site-header" data-header>
@@ -112,30 +115,92 @@
             <h1 class="title">One plan. Everything included. Rs. 1,499/month.</h1>
             <p class="lead" style="color: rgba(255, 255, 255, 0.76);">No confusing tiers. No enterprise-style complexity. Just one clear offer for growing businesses.</p>
             <div class="mini-grid">
-              <div class="mini-card"><div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-layers"></use></svg></div><strong>All channels</strong><p>WhatsApp, Instagram, website, and email in one setup.</p></div>
-              <div class="mini-card"><div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></div><strong>Free trial</strong><p>14 days with no credit card required.</p></div>
+              <div class="mini-card">
+                <div class="mini-card-header">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-layers"></use></svg></div>
+                  <strong>All channels</strong>
+                </div>
+                <p>WhatsApp, Instagram, website, and email in one setup.</p>
+              </div>
+              <div class="mini-card">
+                <div class="mini-card-header">
+                  <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg></div>
+                  <strong>Free trial</strong>
+                </div>
+                <p>14 days with no credit card required.</p>
+              </div>
             </div>
           </div>
         </section>
 
-        <section class="section">
+        <section class="section pricing-section">
           <div class="container">
             <article class="pricing-card reveal">
-              <div class="feature-icon icon-compact"><svg class="icon" aria-hidden="true"><use href="#icon-chat"></use></svg></div>
-              <span class="note">Standard Plan</span>
-              <div class="price">Rs. 1,499<span class="muted" style="font-size: 1rem;"> / month</span></div>
-              <ul class="pricing-list">
-                <li><span class="list-mark">1</span><span>All 4 channels: WhatsApp, Instagram, website, and email</span></li>
-                <li><span class="list-mark">2</span><span>AI auto-replies grounded in your business information</span></li>
-                <li><span class="list-mark">3</span><span>Automatic document and image sharing</span></li>
-                <li><span class="list-mark">4</span><span>Sales and onboarding flows</span></li>
-                <li><span class="list-mark">5</span><span>Smart escalation rules & routing</span></li>
-                <li><span class="list-mark">6</span><span>14-day free trial with no credit card required</span></li>
-              </ul>
-              <div class="btn-row" style="justify-content: center;">
-                <a class="btn btn-primary" href="contact.html#demo">Start Free Trial</a>
+              <div class="pricing-card-left">
+                <div class="plan-badge">
+                  <svg class="icon"><use href="#icon-bolt"></use></svg>
+                  <span>Most Popular</span>
+                </div>
+                <h3 class="plan-name">Standard Plan</h3>
+                <p class="plan-desc">Unify your customer interactions. Let AI handle your responses across all communication channels automatically.</p>
+                
+                <div class="price-container">
+                  <span class="currency">Rs.</span>
+                  <span class="amount">1,499</span>
+                  <span class="period">/ month</span>
+                </div>
+                
+                <div class="btn-wrap">
+                  <a class="btn btn-primary btn-large" href="contact.html#demo">Start 14-Day Free Trial</a>
+                </div>
+                <p class="card-hint">No credit card required. Setup in 5 minutes.</p>
               </div>
-              <p class="muted">Startup? Apply for our special discount during signup.</p>
+              
+              <div class="pricing-card-right">
+                <h4 class="features-title">What's included in this plan:</h4>
+                <ul class="premium-features-list">
+                  <li>
+                    <div class="check-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></div>
+                    <div class="feature-text">
+                      <strong>All 4 channels unified</strong>
+                      <span>WhatsApp, Instagram, website, and email responses in one setup.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="check-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></div>
+                    <div class="feature-text">
+                      <strong>Grounded AI auto-replies</strong>
+                      <span>Replies are based strictly on your uploaded files, sheets, and site info.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="check-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></div>
+                    <div class="feature-text">
+                      <strong>Smart media sharing</strong>
+                      <span>Automatically send product catalog PDFs, onboarding sheets, and images.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="check-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></div>
+                    <div class="feature-text">
+                      <strong>Sales & onboarding flows</strong>
+                      <span>Gather lead details, qualify prospects, or guide users step-by-step.</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="check-icon"><svg class="icon" aria-hidden="true"><use href="#icon-check"></use></svg></div>
+                    <div class="feature-text">
+                      <strong>Intelligent escalation</strong>
+                      <span>Automatically route complex issues to human agents when needed.</span>
+                    </div>
+                  </li>
+                </ul>
+                
+                <div class="startup-discount">
+                  <svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg>
+                  <p>Startup or small local business? <a href="contact.html">Apply for a special discount</a> during onboarding.</p>
+                </div>
+              </div>
             </article>
           </div>
         </section>
